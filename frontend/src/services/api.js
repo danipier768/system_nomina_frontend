@@ -10,7 +10,7 @@ import axios from 'axios';
 // ============================================
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL, // URL del backend
+    baseURL: 'https://system-nomina-backend.onrender.com/api/', // URL del backend
     timeout: 10000, // 10 segundos de timeout
     headers: {
         'Content-Type': 'application/json'
